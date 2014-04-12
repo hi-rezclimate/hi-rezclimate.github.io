@@ -7,7 +7,7 @@
 <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -16,18 +16,29 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../">hi-rezclimate</a>
+      <a class="navbar-brand" href="#">hi-rezclimate</a>
     </div>
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse pull-right">
       <ul class="nav navbar-nav">
-        <li><a href="../docs">Documentation</a></li>
-        <li><a href="../explore">Play Ground</a></li>
+        <li class="active"><a href="#">Showcase</a></li>
+        <li><a href="http://hi-rezclimate.github.io/docs/">Docs</a></li>
       </ul>
     </div>
   </div>
-</header>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Hello, world!</h1>
+      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+	</div>
+</div>
+
+    </div>
+<!-- row1 start-->
 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
       <img src="assets/img/download.svg" alt="...">
       <div class="caption">
@@ -37,17 +48,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <img src="assets/img/download.svg" alt="...">
-      <div class="caption">
-        <h3>Thumbnail label</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Demo</a> <a href="#" class="btn btn-default" role="button">Docs</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
       <img src="assets/img/download.svg" alt="...">
       <div class="caption">
@@ -58,6 +59,56 @@
     </div>
   </div>
 </div>
+<!-- row1 end-->
+
+<!-- row2 start-->
+<div class="row">
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <img src="assets/img/download.svg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Demo</a> <a href="#" class="btn btn-default" role="button">Docs</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+      <img src="assets/img/download.svg" alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Demo</a> <a href="#" class="btn btn-default" role="button">Docs</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- row2 end -->
+
+<!-- row3 start -->
+<div class="row">
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+		<iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/ssw/"></iframe>
+      <div class="caption">
+        <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">Demo</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-6">
+    <div class="thumbnail">
+		<iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/sst/"></iframe>
+      <div class="caption">
+        <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">Demo</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
+      </div>
+    </div>
+  </div>
+<!-- row3 end -->
+
 <script src="assets/js/main.js"></script>
 </body>
 </html>
