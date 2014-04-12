@@ -7,8 +7,6 @@ body {
 }
 .jumbotron {
 	color: #b0c4de;
-	align: center;
-	background-image: url(./gal_img/rosetta1.png);
-	background-repeat: no-repeat;
+	background: url('/~chome/shizuku.jpg') no-repeat left center;
 	height: 350px;
 }
