@@ -5,3 +5,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.jumbotron {
+	color: #b0c4de;
+	align: center;
+	background-image: url(./gal_img/rosetta1.png);
+	background-repeat: no-repeat;
+	height: 350px;
+}
