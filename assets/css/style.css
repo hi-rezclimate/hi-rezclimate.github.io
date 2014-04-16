@@ -7,6 +7,6 @@ body {
 }
 .jumbotron {
 	color: #b0c4de;
-	background: url('assets/img/shizuku.jpg') no-repeat left center;
+	background: url('../../shizuku.jpg') no-repeat left center;
 	height: 350px;
 }
