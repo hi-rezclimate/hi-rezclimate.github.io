@@ -1,117 +1,93 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>hi-rezclimate</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
-</head>
-<body>
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">hi-rezclimate</a>
-    </div>
-    <div class="collapse navbar-collapse pull-right">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Showcase</a></li>
-        <li><a href="http://hi-rezclimate.github.io/docs/">Docs</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="jumbotron">
-  <div class="container">
-    <h1 style="color: white">Hi-RezClimate/ISAC2014</h1>
-	<p style="color: white"> We use earth observation data and visualize it in the real time.</br>
-我々は、しずくの地球観測データをリアルタイムに可視化した。</p>	
-</div>
-</div>
-
-    </div>
-
-<!-- row1 start -->
-<div class="row">
-
-  <div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-		<iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/ssw/"></iframe>
-      <div class="caption">
-        <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">API</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
+  <head>
+    <meta charset="UTF-8">
+    <title>hi-rezclimate</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">hi-rezclimate</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./docs">Documentation</a></li>
+            <li><a href="./explore">Play Ground</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-		<iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/sst/"></iframe>
-      <div class="caption">
-        <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">API</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 style="color: white">Hi-RezClimate/ISAC2014</h1>
+        <p style="color: white"> We use earth observation data and visualize it in the real time.</br>
+        我々は、しずくの地球観測データをリアルタイムに可視化した。</p>	
       </div>
     </div>
-  </div
-
-</div>
-<!-- row1 end -->
-
-<!-- row2 start-->
-<div class="row">
-
-<div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-
-    <h3>TRMM world tour</h3>
-	<iframe width="100%" height="400" seamless src="https://www.youtube.com/embed/F7cuhWUdAAA" frameborder="0" allowfullscreen></iframe>
-
-        <p><a href="#" class="btn btn-primary" role="button">fullscreen</a></p>
-  </div>
-</div>
-
-<div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-   
-   <h3>TRMM chase cloud</h3>
-	<iframe width="100%" height="400" seamless src="https://www.youtube.com/embed/KcrAKaT9rhI" frameborder="0" allowfullscreen></iframe>
-
-<div class="caption">
-        <p><a href="#" class="btn btn-primary" role="button">fullscreen</a></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/ssw/"></iframe>
+            <div class="caption">
+              <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">API</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/sst/"></iframe>
+            <div class="caption">
+              <p><a href="http://hi-rezclimate.github.io/explore/" class="btn btn-primary" role="button">API</a> <a href="http://hi-rezclimate.github.io/docs/" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <h3>TRMM world tour</h3>
+            <iframe width="100%" height="400" seamless src="https://www.youtube.com/embed/F7cuhWUdAAA" frameborder="0" allowfullscreen></iframe>
+            <p><a href="#" class="btn btn-primary" role="button">fullscreen</a></p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <h3>TRMM chase cloud</h3>
+            <iframe width="100%" height="400" seamless src="https://www.youtube.com/embed/KcrAKaT9rhI" frameborder="0" allowfullscreen></iframe>
+            <div class="caption">
+              <p><a href="#" class="btn btn-primary" role="button">fullscreen</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <h3>Google Earth</h3>
+            <iframe width="100%" height="400" seamless src="http://geojackass.org/aerial/index.html" frameborder="0" allowfullscreen></iframe>
+            <p><a href="http://geojackass.org/aerial/index.html" class="btn btn-primary" role="button">fullscreen</a></p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail">
+            <iframe width=100% height="400" seamless src="http://tms.hi-rezclimate.org/gsmap/qrtm/"></iframe>
+            <div class="caption">
+              <p><a href="http://tms.hi-rezclimate.org/gsmap/qrtm/" class="btn btn-primary" role="button">fullscreen</a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-</div>
-<!-- row2 end-->
-
-<!-- row3 start-->
-<div class="row">
-
-<div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-
-    <h3>Google Earth</h3>
-	<iframe width="100%" height="400" seamless src="http://geojackass.org/aerial/index.html" frameborder="0" allowfullscreen></iframe>
-
-        <p><a href="http://geojackass.org/aerial/index.html" class="btn btn-primary" role="button">fullscreen</a></p>
-  </div>
-</div>
-
-  <div class="col-sm-6 col-md-6">
-    <div class="thumbnail">
-	<iframe width=100% height="400" seamless src="http://tms.hi-rezclimate.org/gsmap/qrtm/"></iframe>
-      <div class="caption">
-        <p><a href="http://tms.hi-rezclimate.org/gsmap/qrtm/" class="btn btn-primary" role="button">fullscreen</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- row3 end -->
-
-<script src="assets/js/main.js"></script>
-</b
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
