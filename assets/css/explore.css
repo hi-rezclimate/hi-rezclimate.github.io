@@ -1,0 +1,29 @@
+body {
+  padding-top: 50px;
+}
+
+main {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+#json {
+  text-align: left;
+}
+
+#canvas {
+  display: none;
+}
+
+.panel input[type="text"],
+.panel input[type="number"],
+.panel input[type="date"] {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
+.panel input[type="button"] {
+  width: 90%;
+  margin-bottom: 10px;
+}
