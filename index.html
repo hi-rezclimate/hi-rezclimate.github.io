@@ -1,85 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>hi-rezclimate</title>
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">hi-rezclimate</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="./docs/index.html">Documentation</a></li>
-            <li><a href="./explore.html">Play Ground</a></li>
-          </ul>
-        </div>
+
+<head>
+  <meta charset="UTF-8">
+  <title>hi-rezclimate</title>
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/idcf_logo.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">hi-rezclimate</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="./docs/index.html">Documentation</a></li>
+          <li><a href="./explore.html">Play Ground</a></li>
+        </ul>
       </div>
     </div>
-    <div class="jumbotron">
-      <div class="container">
-        <h1 style="color: white">AERIAL/ISAC2015</h1>
-        <p style="color: white"> We use earth observation data and visualize it in the real time.</br>
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 style="color: white">AERIAL/ISAC2015</h1>
+      <p style="color: white"> We use earth observation data and visualize it in the real time.</br>
         and, provide the satellite data in the json codecs for the developpers.</br>
         我々は、しずくの地球観測データを準リアルタイムに可視化した。</br>
         そして、そのデータをデベロッパー向けに、JSON形式で配布しています。</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <!-- ssw -->
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/ssw/"></iframe>
+          <div class="caption">
+            <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
+          </div>
+        </div>
+      </div>
+      <!-- sst -->
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/sst/"></iframe>
+          <div class="caption">
+            <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-      <!-- ssw -->
-        <div class="col-sm-6 col-md-6">
-          <div class="thumbnail">
-            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/ssw/"></iframe>
-            <div class="caption">
-              <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
-            </div>
-          </div>
-        </div>
-        <!-- sst -->
-        <div class="col-sm-6 col-md-6">
-          <div class="thumbnail">
-            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/sst/"></iframe>
-            <div class="caption">
-              <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 2nd row start -->
-      <div class="row">
+    <!-- 2nd row start -->
+    <div class="row">
       <!-- snd -->
-        <div class="col-sm-6 col-md-6">
-          <div class="thumbnail">
-            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/snd/"></iframe>
-            <div class="caption">
-              <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
-            </div>
-          </div>
-        </div>
-        <!-- prc -->
-        <div class="col-sm-6 col-md-6">
-          <div class="thumbnail">
-            <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/prc/"></iframe>
-            <div class="caption">
-              <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
-            </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/snd/"></iframe>
+          <div class="caption">
+            <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/ssw/" class="btn btn-default" role="button">fullscreen</a></p>
           </div>
         </div>
       </div>
-      <!-- 2nd row end -->
-      <!-- 3rd row start -->
-<!--
+      <!-- prc -->
+      <div class="col-sm-6 col-md-6">
+        <div class="thumbnail">
+          <iframe width=100% height="300" seamless src="http://tms.hi-rezclimate.org/amsr2/prc/"></iframe>
+          <div class="caption">
+            <p><a href="./explore.html" class="btn btn-primary" role="button">API</a> <a href="./docs/index.html" class="btn btn-default" role="button">Docs</a><a href="http://tms.hi-rezclimate.org/amsr2/sst/" class="btn btn-default" role="button">fullscreen</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd row end -->
+    <!-- 3rd row start -->
+    <!--
       <div class="row">
         <div class="col-sm-6 col-md-6">
           <div class="thumbnail">
@@ -99,4 +102,12 @@
         </div>
       </div>
  -->
-      <!-- 3rd row end -->
+    <!-- 3rd row end -->
+    <footer>
+      <div align="center"><a id ="project_team" href="https://github.com/hi-rezclimate">&copy; at least, source code and design and more rights reserved project members</a></div>
+      <!-- aerial-idcf local-->
+      <!--<img src="../aerial_2015/img/IDCFcloud_logo_rgb_01.png" class="idcf_logo">-->
+    </footer>
+</body>
+
+</html>
