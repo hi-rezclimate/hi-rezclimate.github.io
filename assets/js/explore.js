@@ -1,5 +1,5 @@
 var getURL = function (params) {
-  var endpoint = 'http://api.hi-rezclimate.org/amsr2.py/';
+  var endpoint = 'http://api.aerial-proj.org/amsr2.py/';
   endpoint += params['category'] + '?';
   delete params['category'];
   Object.keys(params).forEach(function(key) {
@@ -86,9 +86,9 @@ function init(params) {
   var mapnik = new OpenLayers.Layer.OSM();
 
   var snd = new OpenLayers.Layer.TMS("Sea Surface Temperature",
-    "http://tms.hi-rezclimate.org/amsr2/",
+    "http://tms.aerial-proj.org/amsr2/",
     {
-      url:'http://tms.hi-rezclimate.org/amsr2/',
+      url:'http://tms.aerial-proj.org/amsr2/',
       layername: params.category,
       type:'png',
       alpha: true,
